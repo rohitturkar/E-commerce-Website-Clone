@@ -26,10 +26,15 @@ header{
     background-color:var(--main-bg-color);
     color:white;
     font-family: 'Roboto', sans-serif;
-    
+   
+
 }
 nav{
     display:flex;
+    
+    
+    
+   
 }
 nav ul{
     display:flex;
@@ -85,13 +90,32 @@ nav ul li a:hover{
     /* width:80vw; */
     margin:12px 0px;
 }
+.cards{
+    display:flex;
+    jutify-content:center;
+}
 .cart{
     background-color:white;
-    width:98vw;
+    width:95vw;
     margin:auto;
+}
+.cart-item{
+    display:inline-flex;
+    justify-content:center; 
+    flex-direction:column; 
+   margin:0px 20px;
 }
 .cart h3{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    padding:5px 1px
+    margin:12px 0px;
+}
+.lines{
+    width:22vh;
+}
+.text-center{
+    text-align: center;
+}
+.my-3{
+    padding:4px 0px;
 }
