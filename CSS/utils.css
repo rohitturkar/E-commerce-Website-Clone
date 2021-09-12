@@ -1,17 +1,26 @@
 .flex-all-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .btn{
-  height:25px;
-  padding:0px 15px;
-  border-radius:6px;
-  background-color: var(--main-bg-color);
-  border:2px solid rgb(223, 223, 226);
-  color:white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  cursor:pointer;
+  padding: 5px 10px;
+  color: white;
+  background: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer; 
+}
+
+.my-1{
+  margin: 5px 0;
+}
+
+.my-2{
+  margin: 26px 0;
+}
+
+.text-center{
+  text-align: center;
 }
